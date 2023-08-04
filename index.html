@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <!-- <div class="logo">
+                <a href="#">Charles </a>
+            </div> -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ACERCA DE</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTAME</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Perfil.jpg" alt="">
+            </div>
+            <h1>CARLO JAVIER</h1>
+            <h2>Ingeniero de tic's - Desarrolador JR</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100007135938460"><i class="bi bi-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=7411370630"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/carlo-l%C3%B3pez-0463b9252"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/Carlojavlop"><i class="bi bi-github"></i></a>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>APRENDE MÁS SOBRE MI</h2>
+            <p>Hola, Soy Carlo Javier Lopez Isauro Engresado de la carrera de ingeniería en tecnologiá de la información y Comunicaciones,con gran interés en acceder al mercado laboral para
+                poner en práctica mis conocimiento, desearia encontrar una oportunidad para adquirir más Experiencia profesional.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>> Año de nacimiento:</strong>
+                            23-12-1998
+                        </li>
+                        <li>
+                            <strong>> Teléfono:</strong>
+                            741 1370630
+                        </li>
+                        <li>
+                            <strong>> Email:</strong>
+                            javisolrac98@gmail.com
+                        </li>
+                       
+                        <li>
+                            <strong>> Dirección:</strong>
+                            Lomalinda,Naucalpan estado de Mexíco
+                        </li>
+                        <!-- <li>
+                            <strong>Cargo</strong>
+                            <span>Desallorador JR</span>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="bi bi-android2"></i>
+                            <span>ANDROID</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="bi bi-controller"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="bi bi-earbuds"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="bi bi-airplane-engines"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- <button>
+                Descargar CV <i class="fa-solid fa-download" > <a href="" download=""></a></i>
+              
+
+                
+                <span class="overlay"></span>
+            </button> -->
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <!-- <h3>Habilidad técnica</h3> -->
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL SERVER 2019</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <!-- <h3>habilidades profesionales</h3> -->
+
+                    <div class="skill">
+                        <span>GIT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>BOOTSTRAP 5</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MYSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                       
+                        <span class="casa">Tecnológico Nacional de México Campus Costa Chica
+                          
+                        </span>
+                        <span class="fecha">2017 - 2023</span>
+                        <p>Ingeniería en Tecnologías de la Información y Comunicaciones
+                            (Título en Trámite)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <h3>IDIOMAS</h3>
+                    <div class="item izq">
+                    <span>▪ Español - Nativa</span> <br/>
+                    <span>▪ Amuzgo - Nativa</span> <br>
+                    <span>▪ Inglés - A1</span>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Desarrollador .Net Full Stack Junior</h4>
+
+                        <span class="casa">Secretaría de Educación Pública
+                            Dirección General de Formación Continua a Docentes y Directivos 
+                            (SEP) / (Departamento de Desarrollo de Sistemas)
+                        </span>
+
+
+                        <span class="fecha">Septiembre de 2022 - Mayo de 2023</span>
+                        <p>Proyecto de residencia profesional: Desarrollo de un sitio web progresiva 
+                            para la DGFCDD</p>
+
+                        <h1>Actividades:</h1>    
+
+                        <label>• Participé en las reuniones con el área solicitante en levantamiento de los requerimientos de la App Web </label>  <br/>
+
+                        <label>• Diseñe y presente el prototipo de la Web App en Figma</label> <br/>
+
+                        <label>• Desarrollé los elementos gráficos para el interfaz para el usuario</label> <br/>
+
+                        <label>• Realice la migración de la base de datos de histórico de formación docente para la nueva Web App</label>   <br/>
+
+                        <label>• Diseñé y generé la base de datos para la Web App</label> <br/>
+
+                        <label>• Desarrollé el Back End de la Web App en NET Core 6</label>  
+                        
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Técnico de Proyectos</h4>
+                        <span class="casa">Mi Empresa Digital</span>
+                        <span class="fecha">Enero de 2021 – Diciembre 2021 </span>
+                        <p>Proyecto de servivio social</p>
+                        <h1>Actividades:</h1>
+                        <label>▪ Desarrollo Web de Clientes </label>  <br/>
+                        <label>▪ Instalación de aplicaciones </label>  <br/>
+                        <label>▪ Apoyo en el Desarrollo de Sistema de Facturación para Farmacias </label>  <br/>
+                        <label>▪ Instalación de sistemas Operativos </label>  <br/>
+                        <label>▪ Manejo de la Paquetería MS Office </label>  <br/>
+                        <label>▪ Diseño gráfico en Adobe Photoshop </label>  
+                        
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/aplicacion.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Aplicación web</h3>
+                        <p>ASP.NET MVC C#</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/venta.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Venta</h3>
+                        <p>ASP.NET MVC C#</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/blazor-webassembly.png" alt="">
+                    <div class="overlay">
+                        <h3>Aplicación Progresiva</h3>
+                        <p>Blazor</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+       
+        <div class="contenido-banner-contacto">
+            <div class="row">
+            <h2 class="text-center">CONTACTO</h2>
+            <p>CONTACTAME DE FORMAS DIFERENTES</p>
+            <div class="col-6">
+
+               
+              <div class="redes-Social">
+                
+              
+                <i style="font-size: 20px; color: #ffc107;" class="bi bi-share-fill ico"></i>
+               
+                    <p>Redes Sociales</p>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/profile.php?id=100007135938460"><i class="bi bi-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=7411370630"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/carlo-l%C3%B3pez-0463b9252"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/Carlojavlop"><i class="bi bi-github"></i></a>
+                       
+                    </div>
+                
+               
+              </div>
+
+              
+             
+
+              
+            </div>
+
+            <div class="col-6">
+                <div class="Correo">
+                    
+                <i style="font-size: 20px; color: #ffc107;" class="bi bi-envelope-at-fill ico"></i>
+                  
+                
+                    <p>Mi Correo</p>
+                    <a class="enlace-sin-subrayado" href="mailto:javisolrac98@gmail.com">javisolrac98@gmail.com</a>
+    
+                    
+                  </div>
+            </div>
+   
+            
+
+
+
+            <!-- <a target="_blank" href="mailto:juanjosecastellano8@gmail.com?Subject=Consulta%20el%20sobre%20SistemasWebs" class="gmail">juanjosecastellano8@gmail.com</a> -->
+
+        </div>
+
+
+
+       
+        
+
+
+
+
+
+
+
+
+
+
+    </div>
+        <!-- <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+              
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+               
+                <div class="col">
+                    <div id="Map">
+                
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7523.755209356445!2d-99.2532506103428!3d19.460843177298035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d203b1b5e9c883%3A0xeb81ddc2f62b4169!2sLoma%20Linda%2C%20Naucalpan%20de%20Ju%C3%A1rez%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1691113986916!5m2!1ses!2smx"
+                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            
+                  </div>
+            </div>
+        </div> -->
+
+        
+    </section>
+
+    <!-- footer -->
+    <!-- <footer>
+        Regresar al inicio
+        <a href="#inicio" class="arriba"> 
+            <i class="bi bi-arrow-clockwise">
+
+            </i>
+        </a>
+       
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
