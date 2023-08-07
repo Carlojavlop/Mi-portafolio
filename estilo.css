@@ -372,13 +372,8 @@ html{
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
-/* .curriculum .fila .izquierda{
-    border-right: 2px solid #1e2326;
-    color: #fff;
-}
-.curriculum .fila .derecha{
-    border-left: 2px solid #252A2E;
-} */
+
+
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
@@ -522,9 +517,10 @@ html{
     width: 80%;
     height: 60%;
     background-color: #0a0a0a;
-  
+    display: inline-block;
     margin: auto;
     text-align: center;
+    
     
 }
 .contacto .redes-Social{
@@ -542,12 +538,11 @@ html{
     background-color: #1c1c1c;
     margin: auto;
     text-align: center;
-    
+    display: inline-block;
+  
 }
 
-/* .gmailcolor{
-    background: #0a0a0a !important;
-} */
+
 .ico{
     color: #fff;
     display: inline-block;
@@ -583,16 +578,22 @@ html{
 }
 
 .enlace-sin-subrayado {
+    display: block;
     color:#ffc107;
     text-decoration: none;
-    display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+
+  
+    
+    /* display: block; */
+    
   
 }
 
-/* .contacto .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
+
+  
+
 .contacto h2{
     font-size: 48px;
     font-family: 'Righteous';
@@ -705,17 +706,6 @@ footer .arriba{
     font-size: 18px;
 }
 
-#Map{
-    outline:2px solid blue;
-    margin:5em auto;
-    width: 440px;
-    height: 440px;
-}
-
-#Map iframe{
-width: 100%;
-height: 100%;
-}
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
